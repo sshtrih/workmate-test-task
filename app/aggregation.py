@@ -6,22 +6,22 @@ import sys
 
 class Aggregator(ABC):
     @abstractmethod
-    def compute(self, values: list[float]) -> float:
+    def compute(self, values: List[float]) -> float:
         pass
 
 
 class AvgAggregator(Aggregator):
-    def compute(self, values: list[float]) -> float:
+    def compute(self, values: List[float]) -> float:
         return sum(values) / len(values)
 
 
 class MaxAggregator(Aggregator):
-    def compute(self, values: list[float]) -> float:
+    def compute(self, values: List[float]) -> float:
         return max(values)
 
 
 class MinAggregator(Aggregator):
-    def compute(self, values: list[float]) -> float:
+    def compute(self, values: List[float]) -> float:
         return min(values)
 
 
