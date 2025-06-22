@@ -1,0 +1,54 @@
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+
+# Python байткод
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Тестовые/временные файлы
+*.log
+*.tmp
+*.swp
+*.bak
+
+# IDE/редактор
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Отчёты о покрытии
+htmlcov/
+.coverage
+.cache/
+.tox/
+.pytest_cache/
+
+# Файлы от coverage
+*.cover
+*.coverage.*
+
+# Вывод PyInstaller
+dist/
+build/
+*.spec
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Архивы
+*.zip
+*.tar.gz
+*.egg-info/
+
+# Jupyter и блокноты (если вдруг)
+*.ipynb_checkpoints
+
+# Личное
+*.env
+.env
